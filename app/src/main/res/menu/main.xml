@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:title="@string/action_settings"
+        app:showAsAction="never" />
+    <item android:title="전화"
+        android:icon="@drawable/icon_call">
+
+        <menu>
+            <item
+                android:id="@+id/nav_call1"
+                android:title="전화 소개"/>
+            <item
+                android:id="@+id/nav_call2"
+                android:title="전화 걸기"
+                />
+            <item
+                android:id="@+id/nav_call3"
+                android:title="전화 받기"/>
+            <item
+                android:id="@+id/nav_call4"
+                android:title="통화 중 기능"/>
+        </menu>
+    </item>
+    <item android:title="메시지">
+
+        <menu>
+            <item
+                android:id="@+id/nav_message1"
+                android:title="메시지 소개"/>
+            <item
+                android:id="@+id/nav_message2"
+                android:title="메시지 보내기"/>
+            <item
+                android:id="@+id/nav_message3"
+                android:title="메시지 확인하기"/>
+            <item
+                android:id="@+id/nav_message4"
+                android:title="스팸 메시지 차단하기"/>
+        </menu>
+
+    </item>
+    <item android:title="카카오톡">
+
+        <menu>
+            <item
+                android:id="@+id/nav_kakaotalk"
+                android:title="전화 소개"/>
+        </menu>
+    </item>
+    <item android:title="유튜브">
+
+        <menu>
+            <item
+                android:id="@+id/nav_youtube"
+                android:title="전화 소개"/>
+        </menu>
+    </item>
+</menu>
